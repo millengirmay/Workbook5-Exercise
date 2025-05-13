@@ -11,8 +11,8 @@ public class main {
 
         //Constructor with arguments
 
-        Moped slowride = new Moped("red", 4, 60, 12);
-        System.out.println(slowride.getCargoCapacity());
+        Moped slowRide = new Moped("red", 4, 60, 12);
+        System.out.println(slowRide.getCargoCapacity());
 
         SemiTruck truck = new SemiTruck("White", 2, 120, 20);
         System.out.println(truck.getNumberOfPassengers());
